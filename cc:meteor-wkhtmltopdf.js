@@ -1,0 +1,1 @@
+wkhtmltopdf = Npm.require('wkhtmltopdf');
