@@ -9,9 +9,10 @@ Disclaimer : Compared to V0.1.5, this version uses a static binary of wkhtmltopd
 ## Installation
 `meteor add classcraft:meteor-wkhtmltopdf`
 
-##Usage
+## Usage
 On the server, you have access to a global variable `wkhtmltopdf`, which you can use like this : 
-`var pdfStream = wkhtmltopdf(html, options);`
+
+    var pdfStream = wkhtmltopdf(html, options);
 
 This allows you to write PDFs doing something like this : 
 

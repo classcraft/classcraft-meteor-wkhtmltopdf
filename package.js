@@ -1,7 +1,7 @@
 Package.describe({
   name: 'classcraft:meteor-wkhtmltopdf',
   summary: "Meteor smart package for wkhtmltopdf (doesn't require binaries on the server).",
-  version: "0.2.0",
+  version: "0.2.1",
   git: "https://github.com/classcraft/classcraft-meteor-wkhtmltopdf"
 });
 
