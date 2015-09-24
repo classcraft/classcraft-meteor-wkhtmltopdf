@@ -1,7 +1,7 @@
 Package.describe({
   name: 'classcraft:meteor-wkhtmltopdf',
-  summary: "Meteor smart package for wkhtmltopdf (doesn't require binaries on the server).",
-  version: "0.2.2",
+  summary: "Meteor smart package for wkhtmltopdf (requires binaries on the server).",
+  version: "0.3.1",
   git: "https://github.com/classcraft/classcraft-meteor-wkhtmltopdf"
 });
 
@@ -12,5 +12,5 @@ Package.onUse(function(api) {
 });
 
 Npm.depends({
-  "wkhtmltopdf-selfcontained": "0.1.5"
+  "wkhtmltopdf": "0.1.5"
 });

@@ -1,1 +1,1 @@
-wkhtmltopdf = Npm.require('wkhtmltopdf-selfcontained');
+wkhtmltopdf = Npm.require('wkhtmltopdf');
